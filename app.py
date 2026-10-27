@@ -10,7 +10,7 @@ import tempfile
 @st.cache_resource
 def load_model():
     # Pastikan file model Anda diletakkan di dalam folder 'weight' di GitHub
-    return YOLO("weight/yolov11_best.pt")
+    return YOLO("yolov11_best.pt")
 
 model = load_model()
 confidence_threshold = 0.15
