@@ -1,14 +1,12 @@
-# Deteksi Jalan Berlubang (Pothole Detection) menggunakan YOLOv8 dan YOLOv11
+# Deteksi Jalan Berlubang (Pothole Detection) menggunakan YOLOv11
 
-Proyek  ini berfokus pada implementasi dan studi komparatif algoritma Deep Learning berbasis Computer Vision untuk mendeteksi kerusakan jalan (jalan berlubang) secara real-time. Proyek ini membandingkan arsitektur YOLOv8 dengan model generasi terbaru yaitu YOLOv11 guna menemukan model paling optimal untuk sistem pemantauan infrastruktur jalan cerdas.
+Proyek ini berfokus pada implementasi dan studi komparatif algoritma Deep Learning berbasis Computer Vision untuk mendeteksi kerusakan jalan (jalan berlubang) secara real-time. Repositori ini memuat implementasi menggunakan arsitektur generasi terbaru yaitu **YOLOv11** guna menemukan model paling optimal untuk sistem pemantauan infrastruktur jalan cerdas.
 
-## 🚀 Fitur Utama
-* **Deteksi Real-Time:** Mampu memproses input video atau kamera dasbor (dashcam) secara langsung dengan visualisasi kotak pembatas (bounding box).
-* **Studi Komparatif:** Analisis performa komparatif antara arsitektur YOLOv8 dan YOLOv11 berdasarkan tingkat akurasi serta kecepatan komputasi.
-* **Integrasi Streamlit:** Antarmuka web interaktif yang memudahkan pengguna untuk mengunggah file video/gambar dan melihat hasil prediksi deteksi lubang secara instan.
+🚀 **Versi Aplikasi Demo**  
+Repositori ini khusus dibuat untuk menjalankan aplikasi demo secara cepat di Streamlit Cloud. Semua file utama dan bobot model terbaik (`yolov11_best.pt`) diletakkan di dalam folder proyek untuk memastikan performa aplikasi yang ringan, mutakhir, dan instan.
 
-## 🛠️ Tech Stack
-* **Bahasa Pemrograman:** Python 3.x
-* **Framework AI:** Ultralytics YOLO (v8 & v11), PyTorch
-* **Pengolahan Citra:** OpenCV
-* **Antarmuka Web:** Streamlit
+👉 **[Klik di sini untuk mencoba Aplikasi Demo YOLOv11](https://app-yolov11-ramadhanpa.streamlit.app/)**
+
+### 🛠️ Fitur & Tech Stack
+* **Studi Komparatif:** Analisis performa komparatif arsitektur YOLOv11 berdasarkan tingkat akurasi serta kecepatan komputasi generasi terbaru.
+* **Tech Stack:** Python 3.x, Ultralytics YOLOv11 (Latest), PyTorch, OpenCV, Streamlit.
